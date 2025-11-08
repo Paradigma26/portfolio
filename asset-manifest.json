@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.259fd7f1.css",
+    "main.js": "/portfolio/static/js/main.98a1f1fa.js",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.26d2600f4d8a99b2a7e9.jpeg",
+    "static/media/almar.png": "/portfolio/static/media/almar.a02e31d68dc5b9ab7cfb.png",
+    "static/media/proad.png": "/portfolio/static/media/proad.fdfece492b5472f1f5c2.png",
+    "static/media/logad.png": "/portfolio/static/media/logad.0d50ac8c05a6bc5a29a3.png",
+    "static/media/modad.png": "/portfolio/static/media/modad.93663c809edf4394cdf5.png",
+    "static/media/modof.png": "/portfolio/static/media/modof.142bbc333344ecf904fb.png",
+    "static/media/seis.png": "/portfolio/static/media/seis.e08ebf566a032f8c3fe6.png",
+    "static/media/dasad.png": "/portfolio/static/media/dasad.6dbdd5d74f574db5f876.png",
+    "static/media/ped.png": "/portfolio/static/media/ped.cd2d5a94b6f97929790b.png",
+    "static/media/ofad.png": "/portfolio/static/media/ofad.dfa4e5ce98eeecfb83af.png",
+    "static/media/cuatro.png": "/portfolio/static/media/cuatro.14c971ab2c5df251ed1c.png",
+    "static/media/siete.png": "/portfolio/static/media/siete.f067da313b87ac1d8935.png",
+    "static/media/re.png": "/portfolio/static/media/re.013e5c01429380e4dbc7.png",
+    "static/media/uno.png": "/portfolio/static/media/uno.9f3bbd0d87484e0dd073.png",
+    "static/media/log.png": "/portfolio/static/media/log.686b8d5ef4cc497e8445.png",
+    "static/media/dos.png": "/portfolio/static/media/dos.6e198b46060935fddf27.png",
+    "static/media/tres.png": "/portfolio/static/media/tres.af00d3ee33a9419d81f7.png",
+    "static/media/cinco.png": "/portfolio/static/media/cinco.8070df4488adeb937c81.png",
+    "index.html": "/portfolio/index.html",
+    "main.259fd7f1.css.map": "/portfolio/static/css/main.259fd7f1.css.map",
+    "main.98a1f1fa.js.map": "/portfolio/static/js/main.98a1f1fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.259fd7f1.css",
+    "static/js/main.98a1f1fa.js"
+  ]
+}
