@@ -1,0 +1,55 @@
+.star-border {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 2px; 
+  overflow: hidden;
+}
+
+
+.star-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    var(--border-color),
+    transparent 30%,
+    var(--border-color) 60%,
+    transparent 90%
+  );
+  animation: spin var(--animation-speed) linear infinite;
+  z-index: 0;
+}
+
+
+.star-border-inner {
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #0d1117;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-border-inner img {
+  border-radius: 50%;
+  width: 250px; 
+  height: 250px;
+  object-fit: cover;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

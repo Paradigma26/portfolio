@@ -1,0 +1,168 @@
+.hero {
+  position: relative; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 5rem;
+  background-color: #0d1117;
+  color: #fff;
+  flex-wrap: wrap;
+  overflow: hidden; 
+}
+
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; 
+  pointer-events: none;
+
+}
+
+
+.hero-left,
+.hero-right {
+  position: relative;
+  z-index: 1;
+}
+
+
+.hero-left {
+  max-width: 600px;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-left span {
+  color: #fff;
+}
+
+.hero-left p {
+  color: #c9d1d9;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.tech-buttons {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.tech-buttons button {
+  background-color: #161b22;
+  color: #58a6ff;
+  border: 1px solid #30363d;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  cursor: default;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.primary-btn {
+  background-color: #238636;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: #2ea043;
+}
+
+.social-icons i {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  color: #c9d1d9;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #58a6ff;
+}
+
+.hero-right img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #f0f6fc;
+  border: 4px solid #161b22;
+}
+
+/* 📱 Responsivo */
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .hero-left {
+    max-width: 90%;
+  }
+
+  .hero-left h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-left p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-right {
+    margin-top: 2rem;
+  }
+
+  .hero-right img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-left h1 {
+    font-size: 2rem;
+  }
+
+  .tech-buttons {
+    justify-content: center;
+  }
+
+  .primary-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .social-icons i {
+    font-size: 1.1rem;
+  }
+}

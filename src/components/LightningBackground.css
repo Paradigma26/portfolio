@@ -1,0 +1,9 @@
+.lightning-container {
+  position: fixed; /* se queda fijo en el fondo */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* detrás del contenido */
+  background: black; /* color base */
+}
