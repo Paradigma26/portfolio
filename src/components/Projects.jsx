@@ -22,7 +22,7 @@ import glack from "../assets/glack.png"
 const projectsData = [
   {
     id: 1,
-    title: "GlackStudios | Portfolio",
+    title: "GlackStudios",
     tech: ["React.js", "CSS"],
     image: glack,
     demo: "https://glackstudios.vercel.app",
