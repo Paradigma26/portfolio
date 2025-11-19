@@ -17,17 +17,25 @@ import cuatro from "../assets/habitum/cuatro.png"
 import cinco from "../assets/habitum/cinco.png"
 import seis from "../assets/habitum/seis.png"
 import siete from "../assets/habitum/siete.png"
+import glack from "../assets/glack.png"
 
 const projectsData = [
   {
     id: 1,
+    title: "GlackStudios | Portfolio",
+    tech: ["React.js", "CSS"],
+    image: glack,
+    demo: "https://glackstudios.vercel.app",
+  },
+  {
+    id: 2,
     title: "AlmarBeauty Shop",
     tech: ["React.js", "CSS", "Supabase"],
     image: almar,
     demo: "https://almarbeauty.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Admin AlmarBeauty Shop",
     tech: ["React.js", "CSS", "Supabase"],
     image: dasad,
@@ -42,7 +50,7 @@ const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Habitum+",
     tech: ["Flutter", "CSS", "Firabase"],
     image: cuatro,

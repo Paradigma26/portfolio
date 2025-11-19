@@ -31,7 +31,7 @@ function Hero() {
         </div>
 
         <div className="hero-actions">
-          <button className="primary-btn">Ver mis proyectos</button>
+          <a className="primary-btn" href="#projects">Ver mis proyectos</a>
           <div className="social-icons">
             <i className="fa-brands fa-github"></i>
             <i className="fa-brands fa-linkedin"></i>
